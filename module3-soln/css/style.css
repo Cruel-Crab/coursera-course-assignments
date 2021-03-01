@@ -4,3 +4,130 @@ body {
   background: #61122f;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+#header-nav{
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.navbar-brand h1 {
+  /*Org name*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #951C49;
+  text-align: center;
+  font-size: 1.6em 
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+.active{
+  background: #E7E7E7;
+}
+
+#home-header{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid #3F0C1F;
+  transition: 0.2s all ease-in-out;
+  font-size: 1.1em;
+  
+}
+.menu-item-tile:hover{
+  box-shadow: 0 1px 5px 1px #ccc;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-title{
+	padding-top: 10px;
+}
+.menu-item-details {
+  font-size: 1.2em;
+  font-style: italic;
+}
+/*Extra Small Devices*/
+@media(max-width: 767px){
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1{
+    padding-top: 10px;
+    font-size: 4vw;
+  }
+  .navbar-brand p{
+    font-size: 0.7em;
+    margin-top: 12px;
+  }
+  .navbar-brand p{
+    height: 20px;
+  }
+  .navbar-collapse a{
+    font-size: 0.6em;
+  }
+  .navbar-collapse a i{
+    margin-right: 5px;
+  }
+  #nav-list{
+    font-size: 13px;
+  }
+  #home-header{
+  	font-size: 32px;
+ }
+  h3.menu-item-title{
+ 	font-size: 28px;
+ }
+ .menu-item-details {
+  font-size: 1em;
+}
+.menu-item-tile{
+	width: 70%;
+	margin: auto;
+}
+
+} 
+/*Extra Extra small*/
+@media(max-width: 479px){
+  .navbar-brand h1{
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #home-header{
+  	font-size: 29px;
+ }
+ h3.menu-item-title{
+ 	font-size: 24px;
+ }
+ .menu-item-details {
+  font-size: 0.9em;
+}
+
